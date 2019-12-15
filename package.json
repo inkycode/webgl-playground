@@ -1,0 +1,23 @@
+{
+  "name": "webgl-playground",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "serve": "node server/src/javascript/main.js"
+  },
+  "author": "Stefan Lulham <stefan.lulham@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/webgl2": "0.0.5",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
